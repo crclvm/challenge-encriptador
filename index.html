@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <p>Encriptador de Texto</p>
+    <div>
+        <textarea class="encriptar" id="txt1" placeholder="Introduzca el texto a encriptar"></textarea>
+        <textarea class="desencriptar" id="out1" placeholder="Ningun mensaje ha sido encontrado, esperando texto para encriptar o desencriptar..."></textarea>
+        <p class="informacion">ⓘ Solo letras minusculas y sin acentos.</p>
+    </div>
+
+    <div>
+        <button class="boton1" id="btn1">Encriptar</button>
+        <button class="boton2" id="btn2" onclick="textoEntrada">Desencriptar</button>
+    </div>
+    <script src="encriptador.js"></script>
+</body>
+<footer>José Luis Helo Chavira, participante en Oracle One 2024</footer>
+</html>

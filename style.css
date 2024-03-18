@@ -1,0 +1,96 @@
+body {
+    background: rgb(239, 245, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-weight:900;
+    font-size: 25px;
+    color: rgb(38, 89, 156);
+}
+
+.encriptar {
+    width: 65%;
+    height: 500px;
+    margin: 0 20px 20px 20px;
+    text-align:justify;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(239, 245, 255);
+    font-size: 1.5em;
+    color: rgb(38, 89, 156);
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+    display: inline-block;
+}
+
+.encriptar::placeholder {
+    text-align: justify;
+    resize: none;
+    color: rgba(35, 84, 148, 75%);
+}
+
+.desencriptar {
+    width: 25%;
+    height: 500px;
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.desencriptar::placeholder {
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+}
+
+p.informacion{
+    font-size: 1em;
+    color: rgba(35, 84, 148, 75%);
+}
+
+.boton1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: 100px;
+    background-color: rgb(35, 84, 148);
+    border-radius: 10px;
+    height: 55px;
+    width: 250px;
+    font-size: 1em;
+    border-color: transparent;
+    color: white;
+    display: inline;
+}
+
+.boton2{
+    text-align: center;
+    margin-right: auto;
+    margin-left: 20px;
+    background-color: rgb(180, 209, 247);
+    border-radius: 10px;
+    height: 55px;
+    width: 250px;
+    font-size: 1em;
+    border-color: rgb(35, 84, 148);
+    border-width: 1.5px;
+    color: rgb(35, 84, 148);
+    display: inline-block;
+}
+
+footer{
+font-size: 12px;
+color: rgb(38, 89, 156);
+text-align: center;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.boton1:hover, .boton2:hover {
+    background-color: rgb(114, 178, 255);
+    transition: 250ms;
+}
